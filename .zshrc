@@ -46,6 +46,7 @@ bindkey -M viins '\e.' insert-last-word
 ##########################################################################################################
 
 [ -f ~/.zplug/init.zsh ]              && source ~/.zplug/init.zsh               # zplug initialize
+[ -f /usr/share/autojump/autojump.zsh ]              && source /usr/share/autojump/autojump.zsh               # autojump
 [ -f ~/.config/zsh/robert.zsh ]              && source ~/.config/zsh/robert.zsh               # zplug initialize
 
 ##########################################################################################################
