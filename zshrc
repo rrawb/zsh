@@ -50,3 +50,4 @@ bindkey -M viins '\e.' insert-last-word
 [ -f ~/.config/zsh/robert.zsh ]              && source ~/.config/zsh/robert.zsh               # zplug initialize
 
 
+alias zpinstall="curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh"
