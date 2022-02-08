@@ -12,7 +12,6 @@ PATH=~/bin:~/.local/bin:$PATH
 export EDITOR=nvim
 export VISUAL=nvim
 export FILE=nnn
-export HOME=/home/robert
 export TERM=xterm-256color
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
@@ -51,3 +50,4 @@ bindkey -M viins '\e.' insert-last-word
 
 
 alias zpinstall="curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh"
+zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
