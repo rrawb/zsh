@@ -61,3 +61,4 @@ alias tpminstall="git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/
 ##########################################################################################################
 
 zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
+zplug load
