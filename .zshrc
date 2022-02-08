@@ -48,6 +48,15 @@ bindkey -M viins '\e.' insert-last-word
 [ -f ~/.zplug/init.zsh ]              && source ~/.zplug/init.zsh               # zplug initialize
 [ -f ~/.config/zsh/robert.zsh ]              && source ~/.config/zsh/robert.zsh               # zplug initialize
 
+##########################################################################################################
+## Alias
+##########################################################################################################
 
 alias zpinstall="curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh"
+alias tpminstall="git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm"
+
+##########################################################################################################
+## zplug
+##########################################################################################################
+
 zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
