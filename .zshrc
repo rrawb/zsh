@@ -48,6 +48,8 @@ bindkey -M viins '\e.' insert-last-word
 [ -f ~/.zplug/init.zsh ]              && source ~/.zplug/init.zsh               # zplug initialize
 [ -f /usr/share/autojump/autojump.zsh ]              && source /usr/share/autojump/autojump.zsh               # autojump
 [ -f ~/.config/zsh/robert.zsh ]              && source ~/.config/zsh/robert.zsh               # zplug initialize
+[ -f ~/.config/zsh/work.zsh ]              && source ~/.config/zsh/work.zsh               # zplug initialize
+source ~/.quitcd.bash_zsh
 
 ##########################################################################################################
 ## Alias
@@ -55,6 +57,7 @@ bindkey -M viins '\e.' insert-last-word
 
 alias zpinstall="curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh"
 alias tpminstall="git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm"
+alias cpr='cp /desktop/run.sh .'
 
 ##########################################################################################################
 ## zplug
